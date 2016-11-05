@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> eaf03de2eac806b83cc8173c1e185ee1a13e5c85
 {
     presets: ['react', 'es2015']
 }
