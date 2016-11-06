@@ -6,6 +6,9 @@ import animatedGradient from '../../lib/animated-gradient'
 export default class App extends Component {
 
 
+      componentDidMount(){
+        animatedGradient('animate')
+      }
 
   render() {
     return (
