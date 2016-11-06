@@ -1,3 +1,4 @@
+
 {
   "name": "React-Workshop",
   "version": "1.0.0",
@@ -5,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --content-base ./src --inline --hot",
-    "bundle": "webpack"
+    "bundle": "webpack",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -20,7 +22,6 @@
   "homepage": "https://github.com/SeattleFeministJS/React-Workshop#readme",
   "devDependencies": {
     "babel-core": "^6.17.0",
-
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.16.0",
     "babel-preset-react": "^6.16.0",
@@ -44,10 +45,8 @@
   "dependencies": {
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
+    "react-redux": "^4.4.5",
     "react-router": "^2.8.1",
-
-    "babel-preset-es2015": "^6.16.0",
-    "babel-preset-react": "^6.16.0"
-
+    "redux": "^3.6.0"
   }
 }

@@ -1,22 +1,13 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './components/App/App'
+import Header from './components/Header/Header'
 
-var div = React.DOM.div;
-var h1 = React.DOM.h1;
-
-//  composite component
-var Title = React.createClass({
-    render() {
-        return (
-      div(null,
-        h1(null, this.props.title)
-      )
-    );
-    }
-});
-
-var HelloWorld = (
-  div( null,
-    React.createElement(Title, {title: 'Hello World the Class'})
-  )
-);
-
-ReactDOM.render(HelloWorld, document.getElementById('app'));
+const mail = [
+  'Hello from your mom',
+  'Postcards from the edge',
+  'What happens in Vegas ...',
+  'Check the mail'
+]
+console.log('yes');
+ReactDOM.render(<App><Header messages={mail}/></App>, document.getElementById('app'))
